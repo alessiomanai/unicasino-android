@@ -1,14 +1,21 @@
 package com.alessiomanai.unicasino.controlli;
 
-/**
- * Created by alessio on 10/04/17.
- */
 
 public class Coin {
 
-    int monete;
+    private int monete;
+
+    public Coin(){
 
 
 
+    }
+
+    public void reset(){
+
+        this.monete = 10;
+    }
+
+    
 
 }
