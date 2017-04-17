@@ -26,7 +26,8 @@
             android:text="Coins: 0"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:fontFamily="serif-monospace"/>
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bianco"/>
 
     </LinearLayout>
 
@@ -87,9 +88,11 @@
 
     <Button
         android:id="@+id/leva"
+        android:text="STOP"
+        android:textSize="40sp"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_alignParentBottom="true"
-        android:background="#B22A23" />
+        android:background="@color/levadisattivata" />
 
 </RelativeLayout>

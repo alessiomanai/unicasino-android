@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="bottoneLeva">#B22A23</color>
+    <color name="sfondo">#1560BD</color>
+    <color name="levadisattivata">#4F4F4F</color>
+    <color name="bianco">#FFFFFF</color>
 </resources>

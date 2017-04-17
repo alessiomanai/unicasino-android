@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">UniCasinò</string>
+    <string name="howto">"Una volta effettuato l' accesso all' applicazione vi troverete davanti alla slot machine spenta. Per avviarla, occorre inserire una moneta cliccando sull' immagine "Insert coin to play"; una volta fatto sarà possibile azionare il bottone della leva. Per fermare la slot machine basta cliccare sul bottone STOP. Per proseguire la partita bisognerà inserire un' altra moneta.
+Se sarete fortunati, a seconda delle figure che usciranno potrete vincere un determinato tot di monete oppure un cambiamento dell' interfaccia di gioco.
+Il gioco termina non appena finiscono le monete. Inoltre è possibile salvare il proprio record di monete in qualsiasi momento della partita."
+</string>
 </resources>

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent partita = new Intent(getBaseContext(), Game.class);
+                Intent partita = new Intent(getBaseContext(), About.class);
                 //avvia la finestra corrispondente
                 startActivity(partita);
 

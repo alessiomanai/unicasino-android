@@ -1,10 +1,26 @@
 package com.alessiomanai.unicasino.controlli;
 
-/**
- * Created by alessio on 10/04/17.
- */
 
 public class Leva {
 
+    boolean stato;
+
+    public Leva(){
+
+        this.stato = false;
+
+    }
+
+    public boolean getStato(){
+        return this.stato;
+    }
+
+    public void attiva(){
+        this.stato = true;
+    }
+
+    public void disattiva(){
+        this.stato = false;
+    }
 
 }

@@ -3,7 +3,7 @@ package com.alessiomanai.unicasino.controlli;
 public class Giocatore {
 
     private String nome;
-    private double recordMonete;
+    private long recordMonete;
 
     public Giocatore(){
 
@@ -14,7 +14,7 @@ public class Giocatore {
         this.setNome(nome);
     }
 
-    public Giocatore(String nome, double recordMonete){
+    public Giocatore(String nome, long recordMonete){
 
         this.setNome(nome);
         this.setRecordMonete(recordMonete);
@@ -28,11 +28,11 @@ public class Giocatore {
         this.nome = nome;
     }
 
-    public double getRecordMonete() {
+    public long getRecordMonete() {
         return recordMonete;
     }
 
-    public void setRecordMonete(double recordMonete) {
+    public void setRecordMonete(long recordMonete) {
         this.recordMonete = recordMonete;
     }
 }
