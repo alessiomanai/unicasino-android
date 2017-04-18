@@ -326,7 +326,7 @@ public class Game extends AppCompatActivity {
             case 6:
                 builder = new AlertDialog.Builder(Game.this);
                 builder.setTitle("UniCAsinò");
-                builder.setMessage("Say DAGGR correctly and you gain 25 coins!");
+                builder.setMessage("Say DAGRR correctly and you gain 25 coins!");
                 builder.setCancelable(false);
                 builder.setPositiveButton("Close", new DialogInterface.OnClickListener() {
                     @Override
@@ -337,7 +337,7 @@ public class Game extends AppCompatActivity {
                 });
                 builder.show();
 
-                coins.daggr();
+                coins.dagrr();
                 aggiornaMonete();
                 break;
 

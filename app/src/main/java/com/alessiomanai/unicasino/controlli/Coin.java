@@ -64,7 +64,7 @@ public class Coin {
         this.monete += 10;
     }
 
-    public void daggr() {
+    public void dagrr() {
 
         this.monete += 25;
     }
